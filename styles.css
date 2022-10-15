@@ -1,0 +1,30 @@
+body {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    flex-basis: 550px;
+}
+
+.information {
+    background-color: white;
+    flex-basis: 500px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    flex-basis: 500px;
+}
+
+.sign-up {
+    flex-basis: 350px;
+    background-color: white;
+}
+
+.footer {
+    flex-basis: 100px;
+    background-color: #1F2937;
+}
