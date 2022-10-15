@@ -62,8 +62,8 @@ body {
     margin-bottom: 0;
 }
 
-.hero button {
-    background-color: #3882f6;
+button {
+    background-color: #f3992c;
     padding: 8px 28px;
     color: white;
     font-weight: bold;
@@ -109,14 +109,59 @@ body {
 .quote {
     background-color: #E5E7EB;
     flex-basis: 500px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p {
+    width: 40%;
+    margin-bottom: 0;
 }
 
 .sign-up {
     flex-basis: 350px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     flex-basis: 100px;
     background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal {
+    background-color: black;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 150px;
+    justify-content: space-between;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+
+.modal div{
+    margin-bottom: 0;
+}
+
+.modal p {
+    margin-top: 0;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
